@@ -1,7 +1,9 @@
 # Task list
 
 ## Major steps
-- [ ] draw Mandelbrot set as image
+- [x] draw Mandelbrot set as image
+- [ ] implement smooth coloring
+- [ ] implement coloring scheme to point of satisfaction
 - [ ] implement zooming into a point
 - [ ] compress images
 - [ ] organize images into a video
