@@ -1,6 +1,6 @@
 #include <memory>
-#include <string>
 #include <stdexcept>
+#include <cmath>
 #include "Complex.h"
 
 Complex Complex::add(Complex &c2) {
@@ -34,8 +34,12 @@ Complex Complex::div(Complex &c2) {
 	return c3;
 }
 
+double Complex::abs() {
+	return std::sqrt((this->real * this->real) + (this->img * this->img));
+}
+
 std::string Complex::asString() {
-	const char *fmt = "(%f + %fi)";
+	const char *fmt = "Complex: (%f + %fi)";
 	int sz = std::snprintf(nullptr, 0, fmt, this->real, this->img) + 1;
 	if (sz <= 0) { throw std::runtime_error("Error during formatting."); }
 	std::unique_ptr<char[]> buf(new char[sz]);

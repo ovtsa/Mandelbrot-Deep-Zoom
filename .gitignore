@@ -1,2 +1,6 @@
 a.out
 temp/
+*.ppm
+*.jpg
+*.swp
+.DS_STORE
