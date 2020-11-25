@@ -1,6 +1,7 @@
 #include <memory>
 #include <stdexcept>
 #include "Graph.h"
+#include "Complex.h"
 
 std::string Graph::asString() {
     const char *fmt = "Graph:\n\tpixWidth: %d\n\tpixHeight: %d\n\txMin: %f\n\txMax: %f\n\tyMin: %f\n\tyMax: %f";

@@ -3,4 +3,7 @@ temp/
 *.ppm
 *.jpg
 *.swp
+*.o
+mandelbrotImage
+tests
 .DS_STORE

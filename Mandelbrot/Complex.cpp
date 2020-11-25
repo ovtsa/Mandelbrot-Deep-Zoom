@@ -1,6 +1,7 @@
 #include <memory>
 #include <stdexcept>
 #include <cmath>
+#include <string>
 #include "Complex.h"
 
 Complex Complex::add(Complex &c2) {

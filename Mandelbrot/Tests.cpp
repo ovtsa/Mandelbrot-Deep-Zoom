@@ -41,7 +41,7 @@ int mandelbrotTests() {
 	*/
 	Graph g2;
 	Mandelbrot mb2(g2);
-	mb2.drawToPPM("../temp/test2.ppm");
+	mb2.drawToPPM("../temp/test_output/test.ppm");
 	return 0;
 }
 
